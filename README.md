@@ -1,2 +1,2 @@
 # trape
-Menghitung Luas Trapesium
+Menghitung Keliling Jajar Genjang
