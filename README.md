@@ -1,2 +1,2 @@
-# trape
+# jage
 Menghitung Keliling Jajar Genjang
