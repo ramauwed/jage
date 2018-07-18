@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+class JajarGenjang {
+    int sisi1, sisi2;
+public:
+    void setIsi (int, int);
+    int kel() {return 2*sisi1*sisi2;}
+};
+
+void JajarGenjang::setIsi (int a, int b) {
+    sisi1 = a;
+    sisi2 = b;
+}
+
+int main() {
+    JajarGenjang jage;
+    jage.setIsi (15, 10);
+    cout << "Keliling: " << jage.kel();
+    
+    return 0;
+}
